@@ -1,4 +1,5 @@
 # BDD-CONTACTS
+![Static Badge](https://img.shields.io/badge/pizza-rolls-blue)
 ## Description
 Cette base de données comporte trois tables: "contacts", "pays", et "telephone"
 - "contacts": comporte les informations d'une personne
