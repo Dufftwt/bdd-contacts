@@ -53,3 +53,15 @@ INSERT INTO `contacts` (`nom`, `prenom`, `date_de_naissance`, `sexe`, `adresse`,
 ('Durand', 'Nicolas', '1982-08-14', 'M', '862 Boulevard Égalité', '59000', 'Lille', 'FRA'),
 ('Leroy', 'David', '1986-09-19', 'M', '753 Rue de la Paix', '34000', 'Montpellier', 'FRA'),
 ('Moreau', 'Isabelle', '1994-06-07', 'F', '468 Place de la Victoire', '06000', 'Nice', 'FRA');
+
+INSERT INTO `telephone` (`id_contact`, `numero`, `type`) VALUES
+(1, '0123456789', 1),
+(2, '0234567891', 2),
+(3, '0345678912', 1),
+(4, '0456789123', 2),
+(5, '0567891234', 1),
+(6, '0678912345', 2),
+(7, '0789123456', 1),
+(8, '0891234567', 2),
+(9, '0912345678', 1),
+(10, '0123456790', 2);
