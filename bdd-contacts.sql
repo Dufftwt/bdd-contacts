@@ -29,3 +29,15 @@ CREATE TABLE IF NOT EXISTS telephone (
     type TINYINT NOT NULL,
     FOREIGN KEY (id_contact) REFERENCES contacts(id) ON DELETE CASCADE
 );
+
+INSERT INTO `pays` (`iso_3`, `nom`, `iso_2`, `nationalite`) VALUES
+('FRA', 'France', 'FR', 'Française'),
+('ESP', 'Espagne', 'ES', 'Espagnole'),
+('ITA', 'Italie', 'IT', 'Italienne'),
+('DEU', 'Allemagne', 'DE', 'Allemande'),
+('GBR', 'Royaume-Uni', 'GB', 'Britannique'),
+('USA', 'États-Unis', 'US', 'Américaine'),
+('CAN', 'Canada', 'CA', 'Canadienne'),
+('BRA', 'Brésil', 'BR', 'Brésilienne'),
+('ARG', 'Argentine', 'AR', 'Argentine'),
+('CHN', 'Chine', 'CN', 'Chinoise');
